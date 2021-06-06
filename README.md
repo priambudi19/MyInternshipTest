@@ -1,6 +1,5 @@
 # MyInternshipTest
-
- ** Apa saja library Android yang sering atau biasa anda pakai? Jelaskan kegunaannya bagi anda.**  
+# Apa saja library Android yang sering atau biasa anda pakai? Jelaskan kegunaannya bagi anda. 
  - Delegate ViewBinding
  agar tidak ribet inisialisasi viewbindind pada activity atau fragment
  - Retrofit
