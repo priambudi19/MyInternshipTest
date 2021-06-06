@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/placeFragment">
+
+    <fragment
+        android:id="@+id/placeFragment"
+        android:name="com.priambudi19.myinternshiptest.place.view.PlaceFragment"
+        android:label="Places"
+        tools:layout="@layout/fragment_place" >
+        <action
+            android:id="@+id/action_placeFragment_to_detailPlaceFragment"
+            app:destination="@id/detailPlaceFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/galleryFragment"
+        android:name="com.priambudi19.myinternshiptest.galery.views.GalleryFragment"
+        android:label="Gallery"
+        tools:layout="@layout/fragment_gallery" >
+        <action
+            android:id="@+id/action_galleryFragment_to_detailGaleryFragment"
+            app:destination="@id/detailGaleryFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.priambudi19.myinternshiptest.profile.view.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/detailPlaceFragment"
+        android:name="com.priambudi19.myinternshiptest.place.view.DetailPlaceFragment"
+        android:label="Detail Place"
+        tools:layout="@layout/fragment_detail_place" />
+    <fragment
+        android:id="@+id/detailGaleryFragment"
+        android:name="com.priambudi19.myinternshiptest.galery.views.DetailGaleryFragment"
+        android:label="Detail Photo"
+        tools:layout="@layout/fragment_detail_galery" />
+</navigation>

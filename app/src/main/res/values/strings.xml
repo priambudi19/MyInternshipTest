@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My Internship Test</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="place_bottom_nav">Place</string>
+    <string name="gallery_bottom_nav">Gallery</string>
+    <string name="profile_bottom_nav">Profile</string>
+    <string name="gallery_item">Gallery Item</string>
+</resources>
